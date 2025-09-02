@@ -46,7 +46,7 @@ export default function Home() {
             </div>
             <div className="space-y-2">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                Hi, I'm <span className="text-primary">Sulpin</span>
+                Hi, I'm <span className="text-primary">M.Sulpin Agung Saputra</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                 Web Developer & Designer creating modern and responsive web experiences
