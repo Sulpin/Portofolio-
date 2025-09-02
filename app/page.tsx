@@ -49,7 +49,7 @@ export default function Home() {
                 Hi, I'm <span className="text-primary">M.Sulpin Agung Saputra</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                Web Developer & Designer creating modern and responsive web experiences
+               Web Developer passionate about building modern, responsive, and user-friendly digital experiences.
               </p>
             </div>
             <div className="flex gap-4">
@@ -68,8 +68,7 @@ export default function Home() {
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              I'm a passionate web developer with a focus on creating beautiful, functional, and user-friendly websites.
-              With expertise in modern web technologies, I strive to build digital experiences that make an impact.
+             I am an enthusiastic Web Developer with a strong foundation in modern technologies and a keen eye for design. I enjoy turning ideas into functional, responsive, and visually appealing websites. My goal is to create digital solutions that not only work seamlessly but also deliver meaningful user experiences.
             </p>
           </div>
         </section>
