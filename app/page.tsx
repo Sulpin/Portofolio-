@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-background bg-background">
               <Image
-                src="/placeholder.svg?height=160&width=160"
+                src="https://media.licdn.com/dms/image/D5603AQFvXtQl7xX2jw/profile-displayphoto-shrink_400_400/0/1699999999999?e=2147483647&v=beta&t=xxxx"
                 alt="Profile"
                 width={160}
                 height={160}
@@ -162,7 +162,7 @@ export default function Home() {
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="outline" className="flex items-center gap-2" asChild>
-                <Link href="msulpinagungsaputra@gmail.com">
+                <Link href="mailto:msulpinagungsaputra@gmail.com">
                   <Mail className="h-4 w-4" />
                   Email Me
                 </Link>
@@ -174,7 +174,7 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant="outline" className="flex items-center gap-2" asChild>
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                   LinkedIn
                 </Link>
@@ -195,7 +195,7 @@ export default function Home() {
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </Link>
