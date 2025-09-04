@@ -11,7 +11,7 @@ export default function Home() {
       <header className="sticky top-0 z-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="font-bold">
-            M.Sulpin Agung Saputra
+            M.Sulpin 
           </Link>
           <nav className="flex items-center gap-6">
             <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
