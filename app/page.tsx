@@ -39,7 +39,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center space-y-6 animate-fade-in">
             <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-gradient-to-r from-blue-500 to-indigo-500 bg-white shadow-2xl shadow-blue-500/25">
               <Image
-                src="/mobill.jpeg"
+                src="/profile.png"
                 alt="M.Sulpin Agung Saputra"
                 width={192}
                 height={192}
