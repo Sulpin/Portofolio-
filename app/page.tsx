@@ -56,7 +56,8 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mx-auto max-w-[700px] text-slate-600 md:text-xl lg:text-2xl dark:text-slate-300">
-                Web Developer passionate about building modern, responsive, and user-friendly digital experiences.
+               Web Developer | Frontend Enthusiast | UI/UX Explorer 
+               I'm passionate about crafting modern, responsive, and user-friendly digital experiences that bridge creativity and functionality.
               </p>
             </div>
             <div className="flex gap-4">
@@ -85,9 +86,11 @@ export default function Home() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
             <p className="mx-auto max-w-[700px] text-slate-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-slate-300 leading-relaxed">
-              I am an enthusiastic Web Developer with a strong foundation in modern technologies and a keen eye for
-              design. I enjoy turning ideas into functional, responsive, and visually appealing websites. My goal is to
-              create digital solutions that not only work seamlessly but also deliver meaningful user experiences.
+              I am an enthusiastic Web Developer with a strong foundation in modern technologies and a keen eye for design.  
+              I specialize in turning ideas into functional, responsive, and visually engaging websites.  
+              My goal is to build digital solutions that not only perform seamlessly but also deliver meaningful user experiences.  
+              Beyond coding, I value clean design, usability, and continuous learning.
+
             </p>
           </div>
         </section>
@@ -211,7 +214,9 @@ export default function Home() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
             <p className="mx-auto max-w-[700px] text-slate-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-slate-300">
-              Have a project in mind or want to collaborate? Feel free to reach out!
+              Let’s collaborate!  
+              Whether you have a project idea or just want to connect, feel free to reach out.  
+
             </p>
           </div>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
