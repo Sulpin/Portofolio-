@@ -11,7 +11,7 @@ export default function Home() {
       <header className="sticky top-0 z-10 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="font-bold">
-            M.Sulpin 
+            M.Sulpin Agung Saputra
           </Link>
           <nav className="flex items-center gap-6">
             <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
@@ -36,8 +36,8 @@ export default function Home() {
           <div className="flex flex-col items-center text-center space-y-4">
             <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-background bg-background">
               <Image
-                src="https://media.licdn.com/dms/image/D5603AQFvXtQl7xX2jw/profile-displayphoto-shrink_400_400/0/1699999999999?e=2147483647&v=beta&t=xxxx"
-                alt="Profile"
+                src="/https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                alt="M.Sulpin Agung Saputra"
                 width={160}
                 height={160}
                 className="object-cover"
@@ -49,7 +49,7 @@ export default function Home() {
                 Hi, I'm <span className="text-primary">M.Sulpin Agung Saputra</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-               Web Developer passionate about building modern, responsive, and user-friendly digital experiences.
+                Web Developer passionate about building modern, responsive, and user-friendly digital experiences.
               </p>
             </div>
             <div className="flex gap-4">
@@ -68,7 +68,9 @@ export default function Home() {
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-             I am an enthusiastic Web Developer with a strong foundation in modern technologies and a keen eye for design. I enjoy turning ideas into functional, responsive, and visually appealing websites. My goal is to create digital solutions that not only work seamlessly but also deliver meaningful user experiences.
+              I am an enthusiastic Web Developer with a strong foundation in modern technologies and a keen eye for
+              design. I enjoy turning ideas into functional, responsive, and visually appealing websites. My goal is to
+              create digital solutions that not only work seamlessly but also deliver meaningful user experiences.
             </p>
           </div>
         </section>
@@ -82,13 +84,7 @@ export default function Home() {
             </p>
           </div>
           <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-            {[
-              "HTML & CSS",
-              "React",
-              "Next.js",
-              "Tailwind CSS",
-              "UI/UX Design",
-            ].map((skill) => (
+            {["HTML & CSS", "React", "Next.js", "Tailwind CSS", "UI/UX Design"].map((skill) => (
               <div key={skill} className="flex items-center justify-center rounded-lg border bg-background p-8">
                 <div className="text-center">
                   <h3 className="text-xl font-bold">{skill}</h3>
@@ -160,20 +156,24 @@ export default function Home() {
           </div>
           <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="outline" className="flex items-center gap-2" asChild>
+              <Button variant="outline" className="flex items-center gap-2 bg-transparent" asChild>
                 <Link href="mailto:msulpinagungsaputra@gmail.com">
                   <Mail className="h-4 w-4" />
                   Email Me
                 </Link>
               </Button>
-              <Button variant="outline" className="flex items-center gap-2" asChild>
+              <Button variant="outline" className="flex items-center gap-2 bg-transparent" asChild>
                 <Link href="https://github.com/Sulpin" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                   GitHub
                 </Link>
               </Button>
-              <Button variant="outline" className="flex items-center gap-2" asChild>
-                <Link href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="flex items-center gap-2 bg-transparent" asChild>
+                <Link
+                  href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="h-4 w-4" />
                   LinkedIn
                 </Link>
@@ -194,7 +194,11 @@ export default function Home() {
               <Github className="h-5 w-5" />
               <span className="sr-only">GitHub</span>
             </Link>
-            <Link href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.linkedin.com/in/sulpin-agung-saputra-5211b22b3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </Link>
