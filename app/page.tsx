@@ -40,15 +40,11 @@ export default function Home() {
             <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-gradient-to-r from-blue-500 to-indigo-500 bg-white shadow-2xl shadow-blue-500/25">
               <Image
                 src="/mobill.jpeg"
-                alt="M.Sulpin Agung Saputra on his mobile"
+                alt="M.Sulpin Agung Saputra"
                 width={192}
                 height={192}
                 className="object-cover hover:scale-105 transition-transform duration-500"
                 priority
-                onError={(e) => {
-                  // Fallback ke placeholder jika gagal
-                  e.currentTarget.src = "/placeholder.svg?height=192&width=192&text=Sulpin&bg=3B82F6&color=white"
-                }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
             </div>
